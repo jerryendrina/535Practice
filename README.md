@@ -1,4 +1,4 @@
-## YouTube Practice
+## ISE 535 Final Project
 
 
 ```python
@@ -460,7 +460,7 @@ def countryData(country):
     response = requests.request("GET", url, headers=headers, data=payload)
     data = response.json()
     df = DataFrame(data)
-    return df.tail(1)
+    return df
 ```
 
 
@@ -1049,6 +1049,180 @@ map.save(outfile= "map.html")
 ```
 
 [maplink]("map.html")
+
+### Big Data Set to Use with Widgets
+
+
+```python
+bigData = []
+for country in seCountries:
+    df = countryData(country)
+    bigData.append(df)
+
+bigData = pd.concat(bigData)
+```
+
+
+```python
+#cleaning and filtering
+bigData = bigData[['Country', 'CountryCode','Confirmed','Deaths','Recovered','Active','Date']]
+bigData['Date'] = bigData['Date'].dt.strftime('%Y-%m-%d')
+```
+
+
+```python
+bigData
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Country</th>
+      <th>CountryCode</th>
+      <th>Confirmed</th>
+      <th>Deaths</th>
+      <th>Recovered</th>
+      <th>Active</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Brunei Darussalam</td>
+      <td>BN</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2020-03-09</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Brunei Darussalam</td>
+      <td>BN</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2020-03-10</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Brunei Darussalam</td>
+      <td>BN</td>
+      <td>11</td>
+      <td>0</td>
+      <td>0</td>
+      <td>11</td>
+      <td>2020-03-11</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Brunei Darussalam</td>
+      <td>BN</td>
+      <td>11</td>
+      <td>0</td>
+      <td>0</td>
+      <td>11</td>
+      <td>2020-03-12</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Brunei Darussalam</td>
+      <td>BN</td>
+      <td>37</td>
+      <td>0</td>
+      <td>0</td>
+      <td>37</td>
+      <td>2020-03-13</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>645</th>
+      <td>Viet Nam</td>
+      <td>VN</td>
+      <td>910376</td>
+      <td>21966</td>
+      <td>0</td>
+      <td>888410</td>
+      <td>2021-10-29</td>
+    </tr>
+    <tr>
+      <th>646</th>
+      <td>Viet Nam</td>
+      <td>VN</td>
+      <td>915603</td>
+      <td>22030</td>
+      <td>0</td>
+      <td>893573</td>
+      <td>2021-10-30</td>
+    </tr>
+    <tr>
+      <th>647</th>
+      <td>Viet Nam</td>
+      <td>VN</td>
+      <td>921122</td>
+      <td>22083</td>
+      <td>0</td>
+      <td>899039</td>
+      <td>2021-10-31</td>
+    </tr>
+    <tr>
+      <th>648</th>
+      <td>Viet Nam</td>
+      <td>VN</td>
+      <td>926720</td>
+      <td>22131</td>
+      <td>0</td>
+      <td>904589</td>
+      <td>2021-11-01</td>
+    </tr>
+    <tr>
+      <th>649</th>
+      <td>Viet Nam</td>
+      <td>VN</td>
+      <td>926720</td>
+      <td>22135</td>
+      <td>0</td>
+      <td>904585</td>
+      <td>2021-11-02</td>
+    </tr>
+  </tbody>
+</table>
+<p>6279 rows × 7 columns</p>
+</div>
+
+
+
+### Dashboarding
 
 
 ```python
