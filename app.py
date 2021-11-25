@@ -8,16 +8,18 @@ Created on Wed Nov 24 05:43:59 2021
 
 import streamlit as st
 from multiapp import MultiApp
+from PIL import Image
 from apps import home, data, barcharts, trendlines, model # import your app modules here
 
 app = MultiApp()
 
+image = Image.open('Covid-Banner.png')
+
+st.image(image)
+
 st.markdown("""
-# Covid-19 Forecasting App
 
-This application is made as a final project application of Mr. Jeremias Endrina, Jr. for the course ISE 535.
-
-This uses data from a Covid-19 API.
+###### This application is made as final project of Mr. Jeremias Endrina for the course ISE 535.
 
 """)
 

@@ -9,7 +9,6 @@ Created on Wed Nov 24 06:47:44 2021
 import streamlit as st
 import requests                      #to query with covid-1 API
 import pandas as pd                  #to work with dataframes
-import datetime                      #to work with time values
 import plotly.express as px          #to produce pretty plots
 
 
