@@ -9,8 +9,6 @@ Created on Wed Nov 24 05:50:32 2021
 import streamlit as st
 import requests                      #to query with covid-1 API
 import pandas as pd                  #to work with dataframes
-import datetime                      #to work with time values
-import plotly.express as px          #to produce pretty plots
 from fbprophet import Prophet
 import plotly.graph_objs as go       #to produce pretty plots
 
