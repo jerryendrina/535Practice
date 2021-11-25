@@ -13,8 +13,7 @@ import datetime                      #to work with time values
 import plotly.express as px          #to produce pretty plots
 from fbprophet import Prophet
 import plotly.graph_objs as go       #to produce pretty plots
-from prophet.diagnostics import performance_metrics
-from prophet.diagnostics import cross_validation
+
 
 
 
