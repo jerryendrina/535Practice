@@ -32,7 +32,12 @@ def app():
     
     The link to my github repository can be found [here](https://github.com/jerryendrina/535Project).  
     
-    The packages I used are:  
+    """)
+    
+    expander1 = st.expander("The packages I used are:")
+    expander1.markdown("""
+                       
+    
         
         1. requests - to query data from the Covid-19 API  
         2. pandas - to perform data manipulation and analysis  
@@ -42,7 +47,10 @@ def app():
         6. fbprophet - to run machine learning or forecasting  
         7. streamlit - to create an interactive dashboard  
     
-    The following are the links to the articles and videos that helped me in this project:  
+    """)  
+    
+    expander2 = st.expander("links to the articles and videos that helped me in this project:")
+    expander2.markdown("""
         
     [Object-Oriented-Programming](https://towardsdatascience.com/creating-multipage-applications-using-streamlit-efficiently-b58a58134030)  
     [Machine Learning Forecasting](https://facebook.github.io/prophet/)  
@@ -50,14 +58,25 @@ def app():
     [Animate Plots in Streamlit](https://www.youtube.com/watch?v=VZ_tS4F6P2A)  
     [Generate Nice Plots](https://plotly.com/graphing-libraries/)  
     
-
     """)
     
     # Code
-    expander_bar = st.expander("Code to create this page:")
-    expander_bar.markdown("""
-    * **Python libraries:** base64, pandas, streamlit, numpy, matplotlib, seaborn, BeautifulSoup, requests, json, time
-    * **Data source:** [CoinMarketCap](http://coinmarketcap.com).
-    * **Credit:** Web scraper adapted from the Medium article *[Web Scraping Crypto Prices With Python](https://towardsdatascience.com/web-scraping-crypto-prices-with-python-41072ea5b5bf)* written by [Bryan Feng](https://medium.com/@bryanf).
+    expander3 = st.expander("Codes to create this app:")
+    expander3.markdown("""
+    
+    [Object-Oriented-Programing Code](https://github.com/jerryendrina/535Project/blob/main/multiapp.py)  
+    [Code to Create a Multi-page App](https://github.com/jerryendrina/535Project/blob/main/app.py)  
+    [Home Page Code](https://github.com/jerryendrina/535Project/blob/main/apps/home.py)  
+    [Data Page Code](https://github.com/jerryendrina/535Project/blob/main/apps/data.py)  
+    [Bar Chart Page Code](https://github.com/jerryendrina/535Project/blob/main/apps/barcharts.py)  
+    [Trend Line Page Code](https://github.com/jerryendrina/535Project/blob/main/apps/trendlines.py)  
+    [Model Page Code](https://github.com/jerryendrina/535Project/blob/main/apps/model.py)
+    
+    
     """)
+    
+   
+                          
+    
+    
     

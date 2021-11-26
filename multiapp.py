@@ -9,6 +9,8 @@ Created on Wed Nov 24 05:55:59 2021
 
 import streamlit as st
 
+
+#write a multi app object-oriented-program
 class MultiApp:
     
     def __init__(self):

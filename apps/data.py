@@ -19,9 +19,9 @@ def app():
     st.markdown("""
     
     This is the dataset page of the application. All data are generated using 
-    a function that queries from an API. The sidebar provides date, variable
-    and country options. It also has a button where the user can download the 
-    data based on specified options.
+    functions that query from an API. The sidebar provides date, variable
+    and country options to display. It also has a button where the user can 
+    download the data based on specified options.
     
     """)
 
@@ -48,14 +48,19 @@ def app():
                    "malaysia", "philippines","singapore","thailand","vietnam"]
     varsOptions = ["Country","CountryCode", "Confirmed", "Deaths", "Recovered", 
                    "Active", "Date"]
-
-
+    
+    #text to show while loading data
+    data_load_state = st.text('Loading data...')
+    
     # Generating all data from the API by looping through country and variables
     bigData = []
     for country in seCountries:
         df = countryData(country)
         bigData.append(df)
     bigData = pd.concat(bigData)
+    
+    #notify data is loaded
+    data_load_state.text("Data loaded!")
 
 
     ######################## cleaning and filtering ##########################
