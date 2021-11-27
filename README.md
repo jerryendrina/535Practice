@@ -1,7 +1,7 @@
 # Covid-19 Forecasting Application
 
 This application aims to package what I learned from my Python class 
-including what I self taught myself from my readings and from watching 
+including what I taught myself from my readings and from watching 
 instructional videos. This is an application that directly reads-in 
 data from a [Covid-19 API](https://covid19api.com/ ), where current and up-to-date 
 forecasting, a machine learning method, can be done once the API is updated and
@@ -34,7 +34,7 @@ The links to the articles and videos that helped me in this project are:
 2. [Machine Learning Forecasting](https://facebook.github.io/prophet/)  
 3. [Multi-page Streamlit Application](https://www.youtube.com/watch?v=nSw96qUbK9o)  
 4. [Animate Plots in Streamlit](https://www.youtube.com/watch?v=VZ_tS4F6P2A)  
-        5. [Generate Nice Plots](https://plotly.com/graphing-libraries/)  
+5. [Generate Nice Plots](https://plotly.com/graphing-libraries/)  
     
 Links to the Python files or codes:   
 
