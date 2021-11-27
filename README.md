@@ -30,21 +30,21 @@ The Python packages I used are:
 
 The links to the articles and videos that helped me in this project are:
 
-        1. [Object-Oriented-Programming](https://towardsdatascience.com/creating-multipage-applications-using-streamlit-efficiently-b58a58134030)  
-        2. [Machine Learning Forecasting](https://facebook.github.io/prophet/)  
-        3. [Multi-page Streamlit Application](https://www.youtube.com/watch?v=nSw96qUbK9o)  
-        4. [Animate Plots in Streamlit](https://www.youtube.com/watch?v=VZ_tS4F6P2A)  
+1. [Object-Oriented-Programming](https://towardsdatascience.com/creating-multipage-applications-using-streamlit-efficiently-b58a58134030)  
+2. [Machine Learning Forecasting](https://facebook.github.io/prophet/)  
+3. [Multi-page Streamlit Application](https://www.youtube.com/watch?v=nSw96qUbK9o)  
+4. [Animate Plots in Streamlit](https://www.youtube.com/watch?v=VZ_tS4F6P2A)  
         5. [Generate Nice Plots](https://plotly.com/graphing-libraries/)  
     
-Links to the Python files or codes:
+Links to the Python files or codes:   
 
-        1. [Object-Oriented-Programing Code](https://github.com/jerryendrina/535Project/blob/main/multiapp.py)  
-        2. [Code to Create a Multi-page App](https://github.com/jerryendrina/535Project/blob/main/app.py)  
-        3. [Home Page Code](https://github.com/jerryendrina/535Project/blob/main/apps/home.py)  
-        4. [Data Page Code](https://github.com/jerryendrina/535Project/blob/main/apps/data.py)  
-        5. [Bar Chart Page Code](https://github.com/jerryendrina/535Project/blob/main/apps/barcharts.py)  
-        6. [Trend Line Page Code](https://github.com/jerryendrina/535Project/blob/main/apps/trendlines.py)  
-        7. [Time Series Model Page Code](https://github.com/jerryendrina/535Project/blob/main/apps/model.py)
+1. [Object-Oriented-Programing Code](https://github.com/jerryendrina/535Project/blob/main/multiapp.py)  
+2. [Code to Create a Multi-page App](https://github.com/jerryendrina/535Project/blob/main/app.py)  
+3. [Home Page Code](https://github.com/jerryendrina/535Project/blob/main/apps/home.py)  
+4. [Data Page Code](https://github.com/jerryendrina/535Project/blob/main/apps/data.py)  
+5. [Bar Chart Page Code](https://github.com/jerryendrina/535Project/blob/main/apps/barcharts.py)  
+6. [Trend Line Page Code](https://github.com/jerryendrina/535Project/blob/main/apps/trendlines.py)  
+7. [Time Series Model Page Code](https://github.com/jerryendrina/535Project/blob/main/apps/model.py)
 
 
 
