@@ -25,7 +25,9 @@ def app():
     results in an organized manner by structuring the program into separate python files 
     and generate a multipage application. The app is limited to South East Asian
     Nations to minimize computational time but can easily be extended to other
-    regions since I used an API to query my data.
+    regions since I used an API to query my data. Lastly, it is deployed to
+    share.streamlit.io to easily share the app for submission to the professor and 
+    use of anyone with the link.
     
     I used a [Jupyter Notebook](https://github.com/jerryendrina/535Project/blob/main/staticVersion.ipynb) 
     to create a static version of the app before I translated it to an interactive one.  
