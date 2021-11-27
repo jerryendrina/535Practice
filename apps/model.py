@@ -18,24 +18,23 @@ import plotly.express as px          #to create histogram
 
 
 def app():
-    st.title('Model')
+    st.title('Time Series Model')
 
     st.markdown("""
      
-     Now that we have explored and visualized our data, then we can use these 
+     Now that we have explored and visualized our data, we can then use these 
      as our historical input to make an informed estimates that are predictive 
-     in nature to determine the direction of the future trends or to forecast 
-     what could happen in the future. In this project, we used Facebook's 
-     rophet Package to forecast timeseries data with non-linear trends such 
-     as Covid-19. Prophet is an open source and fast software that provides 
-     automated forecasts that can easily be tuned by data scientist or any 
+     in nature to determine the direction of the future trends. In this project, 
+     we used Facebook's Prophet Package to forecast timeseries data with non-linear 
+     trends such as Covid-19. Prophet is an open source and fast software that 
+     provides automated forecasts that can easily be tuned by any 
      users of the program. The package was released by Facebook's Core Data 
      Science team. For more information, click 
      [Prophet]('https://facebook.github.io/prophet/'). Similar to the previous
-     pages, the sidebar provides variable and country options that we 
-     want to plot. In addition, we can specify the number of days that our
+     pages, the sidebar provides variable and country options that we want to
+     see in the plot. In addition, we can specify the number of days that our
      model will predict. Below are the numerical summaries, distribution and
-     future forecasts of the variable and country specified. 
+     future forecasts of the variable and country selected. 
      
      """)
     

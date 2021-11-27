@@ -19,9 +19,9 @@ def app():
     st.markdown("""
     
     This is the dataset page of the application. All data are generated using 
-    functions that query from an API. The sidebar provides date, variable
-    and country options to display. It also has a button where the user can 
-    download the data based on specified options.
+    functions that query from the Covid-19 API. A sidebar provides date, variable
+    and country options that we want to display. There is also a link/button 
+    where we can download the dataset based on our specified options.
     
     """)
 

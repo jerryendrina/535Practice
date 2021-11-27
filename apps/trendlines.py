@@ -29,7 +29,7 @@ def app():
     This is the trend line page. Plotting our time series data help us see 
     trends visually. This can give us an initial idea of how our future predictions 
     might look like. The sidebar provides variable and country options that we 
-    want to plot. Plotly is a great visualization package where we can zoom in
+    want to see in the plot. Plotly is a great visualization package where we can zoom-in
     and see closely the values of the plot.
     
     """)

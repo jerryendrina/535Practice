@@ -22,7 +22,7 @@ st.image(image)
 #insert a text in the frontpage
 st.markdown("""
 
-###### This application is made as final project of Mr. Jeremias Endrina for the course ISE 535.
+###### This application is made as a final project of Mr. Jeremias Endrina for the course ISE 535.
 
 """)
 
@@ -30,8 +30,8 @@ st.markdown("""
 app.add_app("Home", home.app)
 app.add_app("Data", data.app)
 app.add_app("Animated Bar Chart", barcharts.app)
-app.add_app("Trend Lines", trendlines.app)
-app.add_app("Model", model.app)
+app.add_app("Trend Line", trendlines.app)
+app.add_app("Time Series Model", model.app)
 
 
 # The main app

@@ -20,8 +20,8 @@ def app():
     st.markdown("""
     
     This is the animated bar chart page. The sidebar provides variable and 
-    country options that we want to plot. It also has a button where we 
-    can play and see how the selected variable changes among countries since 
+    country options that we want to see in the plot. It also has a button where 
+    we can play and see how the selected variable changes among countries from 
     the start of the pandemic until the current date.
     
     """)
