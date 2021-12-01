@@ -15,7 +15,9 @@ class MultiApp:
     
     def __init__(self):
         self.apps = []
-
+        
+        
+    #a function to create a page
     def add_app(self, title, func):
         
         self.apps.append({
@@ -23,6 +25,7 @@ class MultiApp:
             "function": func
         })
 
+    #a function to create a sidebar in the main page
     def run(self):
         app = st.sidebar.radio(
             'Click the page to display:',

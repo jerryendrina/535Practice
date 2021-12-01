@@ -26,7 +26,7 @@ st.markdown("""
 
 """)
 
-# Add all applications
+# Add all pages/applications
 app.add_app("Home", home.app)
 app.add_app("Data", data.app)
 app.add_app("Animated Bar Chart", barcharts.app)
@@ -34,5 +34,5 @@ app.add_app("Trend Line", trendlines.app)
 app.add_app("Time Series Model", model.app)
 
 
-# The main app
+# code to run the main app
 app.run()
