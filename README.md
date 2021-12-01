@@ -2,8 +2,8 @@
 (Click the link/title above to access the application from share.streamlit.io.)
 
 This application aims to package what I learned from my Python class 
-including what I taught myself from my readings and from watching 
-instructional videos. This is an application that directly reads-in 
+including those from my readings and from watching instructional videos. 
+This is an application that directly reads-in 
 data from a [Covid-19 API](https://covid19api.com/ ), where current and up-to-date 
 forecasting, a machine learning method, can be done once the API is updated and
 the application is run. I also used an object-oriented-programming to present 
