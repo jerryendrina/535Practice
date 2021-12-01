@@ -2,6 +2,7 @@
 Below are the links to the application and the 4-minute video presentation:
 
 # [Covid-19 Forecasting Application](https://share.streamlit.io/jerryendrina/535project/main/app.py)
+# [4-minute Video Presentation](https://drive.google.com/file/d/1UijCCRVLbnmBs_q8SlmIF3ZFLGIYf5e_/view?usp=sharing)
 
 
 This application aims to package what I learned from my Python class 
