@@ -1,5 +1,8 @@
+
+Below are the links to the application and the 4-minute video presentation:
+
 # [Covid-19 Forecasting Application](https://share.streamlit.io/jerryendrina/535project/main/app.py)
-(Click the link/title above to access the application from share.streamlit.io.)
+
 
 This application aims to package what I learned from my Python class 
 including those from my readings and from watching instructional videos. 
